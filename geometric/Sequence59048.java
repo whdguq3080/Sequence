@@ -13,10 +13,10 @@ public class Sequence59048 {
 		int S = A;//시리즈 series
 		int N = 2;//카운트 
 		while(true) {
+			N++;
 			A *= R;
 			S += A;
-			N++;
-			if(N>4) {
+			if(N>11) {
 			break;
 		}
 			System.out.println(S);

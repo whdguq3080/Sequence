@@ -23,11 +23,17 @@ public class Sequence119800 {
         int N = 2;
         int AN = 0;
         while(true){
-        	N= N-1;
+        	AN++;
+        	S += (2+(D*AN));
+        	System.out.println("Count is "+A+" Number is "+(2+(D*AN))+" Sum is " + S);
+            A++;
+        	if(A<=200) {
+            	continue;
+            }else {
+            	break;
+            }
             // 이 곳을 채우시오
-        	System.out.printf("count is %d,Number 14 s %d ,sum is %d");
         }
-        //System.out.println("S is "+ S);
-		
+        System.out.println("S is "+ S);
 	}
 }

@@ -12,17 +12,21 @@ public class Sequence70 {
         int N = 2; // 번째
         int AN = 0;
         // 2 + 8 + 14 + 20
-        // A + (A+D) + (A+D+D)+ (2+6+6+6)
+        // 2 + (2+6) + (2+6+6)+ (2+6+6+6)
         String ex = "2";
         while (true) {
-           for(int i=0; A<=N; i++) {
-        	    if(i==A) {
-        	    	 
-        	    }
-        	   } 
-           }
-           
-           // System.out.println(ex + "=" + S); // syso
+        	AN++;
+        	A += D;
+        	ex += "+"+A;
+        	S += A;
+        	N++;
+        	if(N<=5) {
+        		continue;
+        	}else {
+        		break;
+        	}
+        	// 이 곳을 채우시오
         }
-		
+        System.out.println(ex + "=" + S);  
 	}
+}
