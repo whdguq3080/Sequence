@@ -23,9 +23,9 @@ public class Sequence119800 {
         int N = 2;
         int AN = 0;
         while(true){
-            
+        	N= N-1;
             // 이 곳을 채우시오
-            
+        	System.out.printf("count is %d,Number 14 s %d ,sum is %d");
         }
         //System.out.println("S is "+ S);
 		
